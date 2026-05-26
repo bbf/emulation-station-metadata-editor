@@ -46,3 +46,4 @@ publish:
   provider: github
   owner: bbf
   repo: emulation-station-metadata-editor
+  releaseType: release
