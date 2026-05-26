@@ -1,0 +1,57 @@
+/* Copyright (c) 2026 Bruno Figueiredo
+   SPDX-License-Identifier: CC-BY-NC-SA-4.0
+   https://creativecommons.org/licenses/by-nc-sa/4.0/ */
+
+.game-list-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+}
+
+.game-list-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border);
+  gap: 12px;
+}
+
+.toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.game-count {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.game-list-content {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.game-list-main {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.game-list-main.with-preview {
+  flex: 3;
+}
+
+.game-list-sidebar {
+  flex: 0 0 640px;
+  border-left: 1px solid var(--border);
+  background: var(--bg-surface);
+  overflow-y: auto;
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<gameList>
+	<game path="./Super Mario World (U).sfc" emulator="lr-snes9x">
+		<name>Super Mario World</name>
+		<desc>Mario's first adventure on the SNES, featuring Yoshi and a massive world to explore. One of the greatest platformers ever created with tight controls &amp; brilliant level design.</desc>
+		<image>./downloaded_images/Super Mario World (U)-image.png</image>
+		<rating>1.0</rating>
+		<releasedate>19901121T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Platform</genre>
+		<players>1-2</players>
+		<kidgame>true</kidgame>
+		<favorite>true</favorite>
+	</game>
+	<game path="./Zelda - A Link to the Past (U).smc" emulator="lr-snes9x">
+		<name>The Legend of Zelda: A Link to the Past</name>
+		<desc>Explore a vast world of light and dark in this action-adventure classic. Features dungeons, puzzles, and an epic quest to rescue Princess Zelda.</desc>
+		<image>./downloaded_images/Zelda - A Link to the Past (U)-image.png</image>
+		<rating>0.95</rating>
+		<releasedate>19911121T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Adventure</genre>
+		<players>1</players>
+		<kidgame>true</kidgame>
+		<favorite>true</favorite>
+	</game>
+	<game path="./Chrono Trigger (U).sfc">
+		<name>Chrono Trigger</name>
+		<desc>Travel through time to prevent a global catastrophe in this legendary RPG by the dream team of Square. Multiple endings &amp; innovative battle system.</desc>
+		<image>./downloaded_images/Chrono Trigger (U)-image.png</image>
+		<rating>1.0</rating>
+		<releasedate>19950311T000000</releasedate>
+		<developer>Square</developer>
+		<publisher>Square</publisher>
+		<genre>Role Playing Game</genre>
+		<players>1</players>
+		<favorite>true</favorite>
+		<playcount>3</playcount>
+		<lastplayed>20260520T143022</lastplayed>
+	</game>
+	<game path="./Donkey Kong Country (U).sfc" emulator="lr-snes9x">
+		<name>Donkey Kong Country</name>
+		<desc>Pre-rendered 3D graphics brought this platformer to life. Collect bananas and defeat Kremlings across diverse environments.</desc>
+		<image>./downloaded_images/Donkey Kong Country (U)-image.png</image>
+		<rating>0.9</rating>
+		<releasedate>19941121T000000</releasedate>
+		<developer>Rare</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Platform</genre>
+		<players>1-2</players>
+		<kidgame>true</kidgame>
+	</game>
+	<game path="./Street Fighter II Turbo (U).sfc" emulator="lr-snes9x">
+		<name>Street Fighter II Turbo</name>
+		<desc>The definitive home version of the legendary fighting game with turbo speed settings and all playable characters.</desc>
+		<rating>0.8</rating>
+		<releasedate>19930710T000000</releasedate>
+		<developer>Capcom</developer>
+		<publisher>Capcom</publisher>
+		<genre>Beat'em Up</genre>
+		<players>1-2</players>
+	</game>
+	<game path="./megafamilybros.smc">
+		<name>Mega Family Bros</name>
+		<rating>0.3</rating>
+		<releasedate>19691231T000000</releasedate>
+		<hidden>true</hidden>
+		<playcount>1</playcount>
+		<lastplayed>20260524T171044</lastplayed>
+	</game>
+	<game path="./Super Metroid (U).sfc" emulator="lr-snes9x">
+		<name>Super Metroid</name>
+		<desc>Explore the planet Zebes in this atmospheric masterpiece. Non-linear exploration, tight controls, and an iconic soundtrack define this action classic.</desc>
+		<rating>0.95</rating>
+		<releasedate>19940319T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Action</genre>
+		<players>1</players>
+		<favorite>true</favorite>
+	</game>
+	<game path="./SimCity (U).sfc">
+		<name>SimCity</name>
+		<desc>Build and manage your own city. Zone residential, commercial, and industrial areas while managing budgets and disasters.</desc>
+		<rating>0.7</rating>
+		<releasedate>19910826T000000</releasedate>
+		<developer>Maxis</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Simulation</genre>
+		<players>1</players>
+		<kidgame>true</kidgame>
+	</game>
+	<game path="./F-Zero (U).sfc" emulator="lr-snes9x">
+		<name>F-Zero</name>
+		<desc>Futuristic high-speed racing with Mode 7 graphics. Four hovercars compete across treacherous courses at breakneck speeds.</desc>
+		<rating>0.8</rating>
+		<releasedate>19901121T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Racing, Driving</genre>
+		<players>1</players>
+	</game>
+	<game path="./Tetris Attack (U).sfc">
+		<name>Tetris Attack</name>
+		<desc>Swap and match panels in this addictive puzzle game featuring Yoshi and friends. Deceptively simple mechanics with deep competitive play.</desc>
+		<rating>0.75</rating>
+		<releasedate>19960818T000000</releasedate>
+		<developer>Intelligent Systems</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Puzzle</genre>
+		<players>1-2</players>
+		<kidgame>true</kidgame>
+	</game>
+</gameList>

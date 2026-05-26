@@ -1,0 +1,42 @@
+/* Copyright (c) 2026 Bruno Figueiredo
+   SPDX-License-Identifier: CC-BY-NC-SA-4.0
+   https://creativecommons.org/licenses/by-nc-sa/4.0/ */
+
+.star-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 0;
+  user-select: none;
+}
+
+.star-rating-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+}
+
+.star-rating-stars .star {
+  font-size: 20px;
+  line-height: 1;
+  transition: color 0.1s;
+}
+
+.star-rating-stars .star.filled {
+  color: var(--warning);
+}
+
+.star-rating-stars .star.empty {
+  color: var(--border-light);
+}
+
+.star-rating-stars .star:hover {
+  transform: scale(1.15);
+}
+
+.star-rating .star-value {
+  font-size: 12px;
+  color: var(--text-muted);
+  min-width: 24px;
+}

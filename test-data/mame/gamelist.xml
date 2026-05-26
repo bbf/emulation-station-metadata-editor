@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<gameList>
+	<game path="./pacman.zip">
+		<name>Pac-Man</name>
+		<desc>Navigate mazes eating dots while avoiding ghosts. One of the most iconic arcade games ever made, Pac-Man became a cultural phenomenon &amp; spawned numerous sequels.</desc>
+		<image>./downloaded_images/pacman-image.png</image>
+		<rating>0.9</rating>
+		<releasedate>19800522T000000</releasedate>
+		<developer>Namco</developer>
+		<publisher>Midway</publisher>
+		<genre>Action / Labyrinth</genre>
+		<players>1-2</players>
+		<kidgame>true</kidgame>
+	</game>
+	<game path="./galaga.zip">
+		<name>Galaga</name>
+		<desc>A fixed shooter where the player controls a spaceship at the bottom of the screen, shooting at waves of alien insects.</desc>
+		<image>./downloaded_images/galaga-image.png</image>
+		<rating>0.8</rating>
+		<releasedate>19810901T000000</releasedate>
+		<developer>Namco</developer>
+		<publisher>Midway</publisher>
+		<genre>Shoot'em Up</genre>
+		<players>1-2</players>
+	</game>
+	<game path="./dkong.zip">
+		<name>Donkey Kong</name>
+		<desc>Jump over barrels and climb ladders to rescue the damsel from the giant ape. The game that introduced Mario to the world.</desc>
+		<image>./downloaded_images/dkong-image.png</image>
+		<rating>0.8</rating>
+		<releasedate>19810709T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Platform</genre>
+		<players>1-2</players>
+		<kidgame>true</kidgame>
+		<favorite>true</favorite>
+	</game>
+	<game path="./asteroid.zip">
+		<name>Asteroids</name>
+		<desc>
+
+Pilot a spaceship through an asteroid field, shooting rocks that break into smaller pieces. A classic vector graphics arcade game.</desc>
+		<image>./downloaded_images/asteroid-image.png</image>
+		<rating>0.7</rating>
+		<releasedate>19791101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Shooter</genre>
+		<players>1-2</players>
+	</game>
+	<game path="./sf2.zip" emulator="lr-mame2010">
+		<name>Street Fighter II</name>
+		<desc>Choose from eight world warriors and battle your way to the championship. Revolutionary fighting game that defined the genre.</desc>
+		<image>./downloaded_images/sf2-image.png</image>
+		<rating>0.9</rating>
+		<releasedate>19910301T000000</releasedate>
+		<developer>Capcom</developer>
+		<publisher>Capcom</publisher>
+		<genre>Beat'em Up</genre>
+		<players>1-2</players>
+		<favorite>true</favorite>
+	</game>
+	<game path="./qbert.zip">
+		<name>Q*bert</name>
+		<desc>Hop around a pyramid of cubes changing their colors while avoiding enemies. Unique isometric perspective for its era.</desc>
+		<rating>0.6</rating>
+		<releasedate>19821001T000000</releasedate>
+		<developer>Gottlieb</developer>
+		<publisher>Gottlieb</publisher>
+		<genre>Action / Labyrinth</genre>
+		<players>1-2</players>
+		<kidgame>true</kidgame>
+	</game>
+	<game path="./frogger.zip">
+		<name>Frogger</name>
+		<image>./downloaded_images/nonexistent-image.png</image>
+		<rating>0.7</rating>
+		<releasedate>19810605T000000</releasedate>
+		<developer>Konami</developer>
+		<publisher>Sega</publisher>
+		<genre>Action</genre>
+		<players>1-2</players>
+		<hidden>true</hidden>
+	</game>
+	<game path="./mspacman.zip">
+		<name>Ms. Pac-Man</name>
+		<desc>The sequel to Pac-Man featuring new maze designs and improved gameplay. Widely considered superior to the original.</desc>
+		<rating>0.85</rating>
+		<releasedate>19820203T000000</releasedate>
+		<developer>Midway</developer>
+		<publisher>Midway</publisher>
+		<genre>Action / Labyrinth</genre>
+		<players>1-2</players>
+		<kidgame>true</kidgame>
+		<favorite>true</favorite>
+	</game>
+</gameList>

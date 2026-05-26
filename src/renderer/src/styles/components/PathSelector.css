@@ -1,0 +1,61 @@
+/* Copyright (c) 2026 Bruno Figueiredo
+   SPDX-License-Identifier: CC-BY-NC-SA-4.0
+   https://creativecommons.org/licenses/by-nc-sa/4.0/ */
+
+.path-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.path-selector-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.path-selector-card h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.path-selector-card .subtitle {
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+}
+
+.path-input-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.path-input {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+.path-selector-card .btn-primary {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.error-message {
+  margin-top: 16px;
+  padding: 10px;
+  background: rgba(239, 83, 80, 0.1);
+  border: 1px solid var(--danger);
+  border-radius: var(--radius);
+  color: var(--danger);
+  font-size: 13px;
+}

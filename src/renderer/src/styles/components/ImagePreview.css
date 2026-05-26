@@ -1,0 +1,146 @@
+/* Copyright (c) 2026 Bruno Figueiredo
+   SPDX-License-Identifier: CC-BY-NC-SA-4.0
+   https://creativecommons.org/licenses/by-nc-sa/4.0/ */
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.side-panel-top {
+  flex-shrink: 0;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.side-panel-genre {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.side-panel-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  min-height: 180px;
+  overflow: hidden;
+}
+
+.side-panel-image img {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.image-placeholder {
+  color: var(--text-muted);
+  font-size: 13px;
+  padding: 40px;
+}
+
+.side-panel-form {
+  flex: 1;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.sp-field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sp-field label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.sp-field input,
+.sp-field textarea {
+  width: 100%;
+}
+
+.sp-field textarea {
+  resize: vertical;
+  min-height: 50px;
+}
+
+.sp-field-desc {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.sp-field-desc textarea.sp-desc {
+  flex: 1;
+  min-height: 75px;
+  resize: vertical;
+}
+
+.sp-row {
+  display: flex;
+  gap: 8px;
+}
+
+.sp-half {
+  flex: 1;
+  min-width: 0;
+}
+
+.sp-checkboxes {
+  display: flex;
+  gap: 16px;
+  padding: 8px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.sp-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--text-primary);
+}
+
+.sp-checkbox input {
+  cursor: pointer;
+  accent-color: var(--accent);
+}
+
+.sp-readonly {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 11px;
+  color: var(--text-muted);
+  padding-top: 4px;
+}
+
+.sp-readonly span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sp-reset-btn {
+  margin-top: 8px;
+  align-self: flex-start;
+}

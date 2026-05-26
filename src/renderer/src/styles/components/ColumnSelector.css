@@ -1,0 +1,40 @@
+/* Copyright (c) 2026 Bruno Figueiredo
+   SPDX-License-Identifier: CC-BY-NC-SA-4.0
+   https://creativecommons.org/licenses/by-nc-sa/4.0/ */
+
+.column-selector {
+  position: relative;
+}
+
+.column-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 4px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px;
+  z-index: 100;
+  min-width: 160px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.column-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 6px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.column-option:hover {
+  background: var(--bg-hover);
+}
+
+.column-option input[type='checkbox'] {
+  cursor: pointer;
+}

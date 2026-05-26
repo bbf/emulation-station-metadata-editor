@@ -1,0 +1,32 @@
+node_modules
+dist
+out
+.DS_Store
+.eslintcache
+*.log*
+*.tsbuildinfo
+
+# Electron builder cache
+*.blockmap
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Test artifacts
+test-results
+playwright-report
+
+# Environment
+.env
+.env.*
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Backup files created by the app
+*.bak
+*.tmp

@@ -1,0 +1,23 @@
+/* Copyright (c) 2026 Bruno Figueiredo
+   SPDX-License-Identifier: CC-BY-NC-SA-4.0
+   https://creativecommons.org/licenses/by-nc-sa/4.0/ */
+
+.save-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border);
+}
+
+.save-bar-count {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--warning);
+}
+
+.save-bar-message {
+  font-size: 13px;
+  color: var(--success);
+}

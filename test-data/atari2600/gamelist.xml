@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<gameList>
+	<game path="./Adventure (USA).a26">
+		<name>Adventure</name>
+		<desc>One of the earliest action-adventure games. Explore a kingdom of castles and mazes to find an enchanted chalice stolen by an evil magician. Notable for containing the first known video game Easter egg.</desc>
+		<image>./downloaded_images/Adventure (USA)-image.png</image>
+		<rating>0.7</rating>
+		<releasedate>19800101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Adventure</genre>
+		<players>1</players>
+		<kidgame>true</kidgame>
+	</game>
+	<game path="./Pitfall (USA).a26">
+		<name>Pitfall!</name>
+		<desc>Run through jungles swinging on vines, jumping over obstacles &amp; collecting treasures in this pioneering side-scrolling platformer.</desc>
+		<image>./downloaded_images/Pitfall (USA)-image.png</image>
+		<rating>0.8</rating>
+		<releasedate>19820420T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<genre>Platform</genre>
+		<players>1</players>
+		<kidgame>true</kidgame>
+		<favorite>true</favorite>
+	</game>
+	<game path="./Combat (USA).a26">
+		<name>Combat</name>
+		<desc>Two-player tank and biplane combat across 27 game variations. The pack-in title that launched with the Atari 2600.</desc>
+		<image>./downloaded_images/Combat (USA)-image.png</image>
+		<rating>0.5</rating>
+		<releasedate>19770911T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Shooter</genre>
+		<players>1-2</players>
+	</game>
+	<game path="./Space Invaders (USA).a26">
+		<name>Space Invaders</name>
+		<desc>The port that quadrupled Atari 2600 sales. Defend Earth from descending waves of alien invaders in this timeless classic.</desc>
+		<rating>0.7</rating>
+		<releasedate>19800301T000000</releasedate>
+		<developer>Taito</developer>
+		<publisher>Atari</publisher>
+		<genre>Shoot'em Up</genre>
+		<players>1-2</players>
+	</game>
+	<game path="./Breakout (USA).a26">
+		<name>Breakout</name>
+		<desc>Bounce a ball to break through rows of bricks. Simple concept, endlessly addictive gameplay.</desc>
+		<rating>0.6</rating>
+		<releasedate>19780501T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Puzzle</genre>
+		<players>1-2</players>
+		<kidgame>true</kidgame>
+	</game>
+	<game path="./River Raid (USA).a26">
+		<name>River Raid</name>
+		<desc>Fly a jet up a vertically scrolling river, destroying bridges and enemy vehicles while managing fuel. Carol Shaw's masterpiece &amp; one of the first games designed by a woman.</desc>
+		<rating>0.8</rating>
+		<releasedate>19821201T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<genre>Shoot'em Up</genre>
+		<players>1</players>
+		<favorite>true</favorite>
+	</game>
+	<game path="./Basic Math (USA),a26">
+		<name>Basic Math</name>
+		<genre></genre>
+		<rating>0.2</rating>
+		<releasedate>19770911T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<players>1</players>
+		<hidden>true</hidden>
+	</game>
+</gameList>
